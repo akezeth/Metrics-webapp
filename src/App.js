@@ -1,9 +1,17 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import CryptoCurrency from './components/CryptoCurrency';
+import Details from './components/Details';
 
 function App() {
   return (
     <div className="App">
-      <h1>React Capstone Project</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<CryptoCurrency />} />
+          <Route path="details/:name" element={<Details />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
