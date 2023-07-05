@@ -1,3 +1,11 @@
+:root {
+  --red: #9a325b;
+  --light-red: #dd4782;
+  --light-bg: #d32e70;
+  --white: white;
+  --active: yellow;
+}
+
 body {
   margin: 0;
   font-family:

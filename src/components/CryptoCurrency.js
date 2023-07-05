@@ -4,6 +4,7 @@ import { BsSearch } from 'react-icons/bs';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchCrypto } from '../redux/cryptocurrency/cryptoSlice';
+import './CryptoCurrency.css';
 
 const CryptoCurrency = () => {
   const dispatch = useDispatch();

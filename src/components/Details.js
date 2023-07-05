@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { BiArrowBack } from 'react-icons/bi';
 import { FaBitcoin } from 'react-icons/fa';
+import './Details.css';
 
 const Details = () => {
   const location = useLocation();
