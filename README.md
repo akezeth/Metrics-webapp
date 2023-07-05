@@ -128,7 +128,9 @@ To start this project, run
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Making the page responsive]**
+- [ ] **[Add more coins]**
+- [ ] **[Create the About section]**
+- [ ] **[Create the contact section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
