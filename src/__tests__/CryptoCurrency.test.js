@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { MemoryRouter, useNavigate } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import CryptoCurrency from '../components/CryptoCurrency';
 import '@testing-library/jest-dom/extend-expect';
