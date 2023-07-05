@@ -1,107 +1,165 @@
-# CryptoCurrency Tracker 💸
+> # 📖 CryptoCurrency Tracker
 
-[CryptoCurrency Tracker] is a mobile web application created using React and Redux to display a list of cryptocurrency coins and their current market info.
+# 📗 Table of Contents
 
-## Table of Contents 📑
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Deployment](#live-demo)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-- [Features](#features-)🚀
-- [Built With](#built-with-)🛠
-- [Live Demo](#Live-Demo-)🖥️
-- [Getting Started](#getting-started-)🏁
-- [Authors](#authors-)👥
-- [Future Features](#future-features-)🔭
-- [Contributing](#contributing-)🤝
-- [Show your support](#show-your-support-)⭐️
-- [Acknowledgments](#acknowledgments-)🙏
-- [FAQ](#faq-)❓
-- [License](#license-)📝
+# 📖 CryptoCurrency Tracker Metric-Webapp <a name="about-project"></a>
 
-## Features 🚀
+> **CryptoCurrency Tracker** - is a mobile web application created using React and Redux to display a list of cryptocurrency coins and their current market info.
 
-This web app has the following features:
+## 🛠 Built With <a name="built-with"></a>
 
-- List of coins.
-- Coin details.
+- **CSS**
+- **REACT**
+- **REDUX**
+- **COINCAP API**
 
-## Built With 🛠
+### Tech Stack <a name="tech-stack"></a>
 
-This web app was built with:
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+  </ul>
+</details>
 
-- React
-- HTML
-- CSS
-- JavaScript
+<details>
+  <summary>REACT</summary>
+  <ul>
+    <li><a href="https://legacy.reactjs.org/docs/getting-started.html">REACT</a></li>
+  </ul>
+</details>
 
-## Live Demo 🖥️
+<details>
+  <summary>REDUX</summary>
+  <ul>
+    <li><a href="https://react-redux.js.org/">REDUX</a></li>
+  </ul>
+</details>
 
-- [CryptoCurrency Tracker](https://cryptocurrency-ex5o.onrender.com/)
+<details>
+  <summary>COINCAP API</summary>
+  <ul>
+    <li><a href="https://api.coincap.io/">COINCAP API</a></li>
+  </ul>
+</details>
 
-## Getting Started 🏁
+### Key Features <a name="key-features"></a>
 
-To run this web app locally, follow these steps:
+- **[List of coins]**
+- **[Coin details]**
 
-### Prerequisites 📋
+<!-- GETTING STARTED -->
 
-You need to have:
+<!-- LIVE DEMO LINK -->
 
-- A web browser
-- A terminal
-- Git
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Setup 🔧
+- [Live Demo Link](https://cryptocurrency-ex5o.onrender.com/)
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- install any text editor (I recommend Visual Studio Code)
+
+### Setup
 
 Clone this repository to your desired folder:
 
-```bash
-cd my-desired-folder
-git clone https://github.com/akezeth/Metrics-webapp.git
+```sh
+  cd my-folder
+  git clone https://github.com/akezeth/Metrics-webapp.git
 ```
 
-For more information on how to clone or fork a repository, check these links:
+### Install
 
-- [How to clone a repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-- [How to fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+Install this project with:
 
-### Usage 💻
+- Install using preferred terminal
 
-To use this web app, open index.html with your web browser.
+```sh
+    cd Metrics-Webapp
+    npm install
+```
 
-## Authors 👥
+### Usage
 
-👤 Aklilu Mekonnen
+To start this project, run
+
+```sh
+    npm start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+👤 **Aklilu Mekonnen**
 
 - GitHub: [@akezeth](https://github.com/akezeth)
 - Twitter: [@akezeth](https://twitter.com/akezeth)
-- LinkedIn: [Aklilu Mekonnen](https://www.linkedin.com/in/aklilu-mekonnen-a8287b74)
+- LinkedIn: [Aklilu Mekonnen](https://www.linkedin.com/in/akliu-mekonnen/)
 
-## Future Features 🔭
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FUTURE FEATURES -->
 
-We plan to add these features in the future:
+## 🔭 Future Features <a name="future-features"></a>
 
- - Add more coins
- - Create the About section
- - Create the contact section
+- [ ] **[Making the page responsive]**
 
-## Contributing 🤝
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-We welcome any contributions, issues, and feature requests!
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/akezeth/Metrics-webapp/issues).
 
-## Show your support ⭐️
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you like this project, please give it a star and share it with your friends.
+<!-- SUPPORT -->
 
-## Acknowledgments 🙏
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, kindly leave a ⭐
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank [Microverse](https://www.microverse.org/) and [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for this project.
 
-## FAQ ❓
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Do I need an IDE or a special text editor to make changes?
+<!-- LICENSE -->
 
-- No, you don't. You can use any text editor you like.
+## 📝 License <a name="license"></a>
 
-## License 📝
-
-This project is licensed under the [MIT License](https://github.com/akezeth/Bookstore/blob/main/LICENSE).
+This project is [MIT](https://github.com/kessie2862/Metrics-Webapp/blob/dev/LICENSE) licensed.
