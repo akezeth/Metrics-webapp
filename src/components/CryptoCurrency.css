@@ -1,0 +1,81 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--white);
+}
+
+.d-flex-space-be {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--red);
+  color: var(--white);
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.card:nth-child(4n + 2),
+.card:nth-child(4n + 3) {
+  background-color: var(--light-red);
+}
+
+.py5 {
+  padding-block: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.my5 {
+  margin-top: 10px;
+}
+
+.search-container {
+  width: 90%;
+  padding-inline: 10px;
+}
+
+.search {
+  width: 100%;
+  line-height: 2.5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  border: 3px solid var(--red);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+}
+
+form {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 20px;
+  right: 3rem;
+  cursor: pointer;
+}

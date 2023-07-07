@@ -1,0 +1,33 @@
+.detail-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--light-red);
+}
+
+.details {
+  color: var(--white);
+  max-width: 500px;
+  margin: 10px auto;
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.details-body > * {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px;
+  background-color: var(--light-red);
+}
+
+.details-body > *:nth-child(even) {
+  background-color: var(--light-red);
+}
+
+.back-arrow {
+  color: var(--light-red);
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+}
